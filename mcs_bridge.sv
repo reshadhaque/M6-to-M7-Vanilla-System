@@ -1,4 +1,4 @@
-module mcs_bridge #(parameter BRG_BASE = 32'h4000_0000)
+module mcs_bridge #(parameter BRG_BASE = 30'b0)
 (
     //Nios II processor Avalon to External Bus Bridge
     input logic io_rw,
