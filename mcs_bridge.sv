@@ -35,6 +35,6 @@ module mcs_bridge #(parameter BRG_BASE = 32'h4000_0000)
 
     //data line conversions
     assign fp_wr_data = io_write_data;
-    assign fp_rd_data = io_read_data;
+    assign io_read_data = fp_rd_data;
     
 endmodule
