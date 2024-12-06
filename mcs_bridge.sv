@@ -5,7 +5,7 @@ module mcs_bridge #(parameter BRG_BASE = 32'h4000_0000)
     input logic [3:0] io_byte_enable,
     input logic [29:0] io_address,
     input logic [31:0] io_write_data,
-    input logic [31:0] io_read_data,
+    output logic [31:0] io_read_data,
 
     //FPRO Bus
     output logic fp_video_cs,
