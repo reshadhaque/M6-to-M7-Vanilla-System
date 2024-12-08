@@ -11,7 +11,7 @@ module gpi #(parameter W = 8)
     output logic [31:0] rd_data,
     //external signals
     input logic [W-1:0] din
-)
+);
     //signal declaration
     logic [W-1:0] rd_data_reg;
 
@@ -26,5 +26,5 @@ module gpi #(parameter W = 8)
 
     assign rd_data[W-1:0] = rd_data_reg;
     assign rd_data[31:W] = 0;
-    
+
 endmodule

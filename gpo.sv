@@ -11,7 +11,7 @@ module gpo #(parameter W = 8) //Width of output port
     output logic [31:0] rd_data,
     //External port
     output logic [W-1:0] dout
-)
+);
 
     //declaration
     logic [N-1:0] buf_reg;
