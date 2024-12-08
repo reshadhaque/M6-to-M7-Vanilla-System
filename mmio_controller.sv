@@ -49,4 +49,5 @@ module mmio_controller
     //Multiplexer for read data
     assign mmio_rd_data = slot_rd_data_array[slot_addr];
 
+    
 endmodule
