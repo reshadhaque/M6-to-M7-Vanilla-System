@@ -1,8 +1,8 @@
 #ifndef _CHU_IO_MAP_INCLUDED
 #define _CHU_IO_MAP_INCLUDED
 
-#ifdef _cplusplus
-extern "C" {
+#ifdef __cplusplus
+extern "C"{
 #endif
 
 //System clock frequency for the timer and uart
@@ -18,7 +18,7 @@ extern "C" {
 #define S2_LED 2
 #define S3_SW 3
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 } //extern "C"
 #endif
 

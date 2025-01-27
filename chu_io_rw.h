@@ -3,7 +3,7 @@
 
 //library
 #include <inttypes.h> //To use different integer types
-#ifndef _cplusplus
+#ifndef __cplusplus
 extern "C"{
 #endif
 
@@ -15,7 +15,7 @@ extern "C"{
 
 
 
-#ifndef _cplusplus
+#ifndef __cplusplus
 } //extern "C"
 #endif
 
