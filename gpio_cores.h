@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 class GpoCore{
     public:
     //register map
@@ -5,7 +7,7 @@ class GpoCore{
         DATA_REG = 0    //Data register
     };
 
-    GpoCore(uin32_t core_base_addr); //Constructor
+    GpoCore(uint32_t core_base_addr); //Constructor
     ~GpoCore();                      //Destructor
 
     void write(uint32_t data);      //Write a 32 bit word
