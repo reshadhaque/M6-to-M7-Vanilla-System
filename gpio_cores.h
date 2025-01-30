@@ -1,5 +1,5 @@
 #include <inttypes.h>
-/
+//Class for general purpose output driver
 class GpoCore{
     public:
     //register map
